@@ -1,0 +1,1 @@
+{"version":3,"file":"stop-process.js","sourceRoot":"","sources":["../../src/utils/stop-process.ts"],"names":[],"mappings":";;;;;AAAA,sDAA8B;AAE9B,SAAwB,WAAW,CAAC,OAAe;IACjD,IAAI,OAAO,EAAE;QACX,gBAAM,CAAC,KAAK,CAAC,OAAO,CAAC,CAAC;KACvB;IAED,OAAO,OAAO,CAAC,IAAI,CAAC,CAAC,CAAC,CAAC;AACzB,CAAC;AAND,8BAMC"}
