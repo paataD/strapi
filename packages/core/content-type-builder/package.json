@@ -49,7 +49,7 @@
     "yup": "^0.32.9"
   },
   "devDependencies": {
-    "@strapi/admin": "4.10.5",
+    "@strapi/admin": "https://github.com/paataD/strapi/archive/refs/tags/strapi-admin-v4.10.5-gitpkg.tar.gz",
     "@testing-library/react": "14.0.0",
     "history": "^4.9.0",
     "react": "^18.2.0",

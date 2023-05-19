@@ -213,13 +213,6 @@ const getTypeShape = (attribute, { modelType, attributes } = {}) => {
             test(compoUID) {
               const targetCompo = strapi.components[compoUID];
               if (!targetCompo) return true; // ignore this error as it will fail beforehand
-
-              if (modelType === modelTypes.COMPONENT && hasComponent(targetCompo)) {
-                return this.createError({
-                  path: this.path,
-                  message: `${targetCompo.modelName} already is a nested component. You cannot have more than one level of nesting inside your components.`,
-                });
-              }
               return true;
             },
           })

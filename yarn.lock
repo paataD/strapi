@@ -7823,6 +7823,113 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@strapi/admin@https://github.com/paataD/strapi/archive/refs/tags/strapi-admin-v4.10.5-gitpkg.tar.gz":
+  version: 4.10.5
+  resolution: "@strapi/admin@https://github.com/paataD/strapi/archive/refs/tags/strapi-admin-v4.10.5-gitpkg.tar.gz"
+  dependencies:
+    "@babel/core": ^7.20.12
+    "@babel/plugin-transform-runtime": ^7.19.6
+    "@babel/preset-env": ^7.20.2
+    "@babel/preset-react": ^7.18.6
+    "@babel/runtime": ^7.20.13
+    "@casl/ability": ^5.4.3
+    "@fingerprintjs/fingerprintjs": 3.4.1
+    "@pmmmwh/react-refresh-webpack-plugin": 0.5.10
+    "@strapi/babel-plugin-switch-ee-ce": 4.10.5
+    "@strapi/data-transfer": 4.10.5
+    "@strapi/design-system": 1.7.5
+    "@strapi/helper-plugin": 4.10.5
+    "@strapi/icons": 1.7.5
+    "@strapi/permissions": 4.10.5
+    "@strapi/provider-audit-logs-local": 4.10.5
+    "@strapi/typescript-utils": 4.10.5
+    "@strapi/utils": 4.10.5
+    axios: 1.3.4
+    babel-loader: ^9.1.2
+    babel-plugin-styled-components: 2.1.1
+    bcryptjs: 2.4.3
+    browserslist: ^4.17.3
+    browserslist-to-esbuild: 1.2.0
+    chalk: ^4.1.2
+    chokidar: ^3.5.1
+    codemirror5: "npm:codemirror@^5.65.11"
+    cross-env: ^7.0.3
+    css-loader: ^6.7.3
+    date-fns: 2.30.0
+    dotenv: 8.5.1
+    esbuild-loader: ^2.21.0
+    execa: ^1.0.0
+    fast-deep-equal: 3.1.3
+    find-root: 1.1.0
+    fork-ts-checker-webpack-plugin: 7.2.1
+    formik: ^2.2.6
+    fractional-indexing: 3.2.0
+    fs-extra: 10.0.0
+    highlight.js: ^10.4.1
+    history: ^4.9.0
+    html-loader: ^4.2.0
+    html-webpack-plugin: 5.5.0
+    immer: 9.0.19
+    invariant: ^2.2.4
+    js-cookie: 2.2.1
+    jsonwebtoken: 9.0.0
+    koa-compose: 4.1.0
+    koa-passport: 5.0.0
+    koa-static: 5.0.0
+    koa2-ratelimit: ^1.1.2
+    lodash: 4.17.21
+    markdown-it: ^12.3.2
+    markdown-it-abbr: ^1.0.4
+    markdown-it-container: ^3.0.0
+    markdown-it-deflist: ^2.1.0
+    markdown-it-emoji: ^2.0.0
+    markdown-it-footnote: ^3.0.3
+    markdown-it-ins: ^3.0.1
+    markdown-it-mark: ^3.0.1
+    markdown-it-sub: ^1.0.0
+    markdown-it-sup: 1.0.0
+    mini-css-extract-plugin: 2.7.2
+    node-schedule: 2.1.0
+    p-map: 4.0.0
+    passport-local: 1.0.0
+    pluralize: 8.0.0
+    prop-types: ^15.8.1
+    qs: 6.11.1
+    react: ^18.2.0
+    react-copy-to-clipboard: ^5.1.0
+    react-dnd: 15.1.2
+    react-dnd-html5-backend: 15.1.3
+    react-dom: ^18.2.0
+    react-error-boundary: 3.1.4
+    react-helmet: ^6.1.0
+    react-intl: 6.4.1
+    react-is: ^18.2.0
+    react-query: 3.39.2
+    react-redux: 8.0.5
+    react-refresh: 0.14.0
+    react-router-dom: 5.3.4
+    react-select: 5.7.0
+    react-window: 1.8.8
+    redux: ^4.2.1
+    reselect: ^4.1.7
+    rimraf: 3.0.2
+    sanitize-html: 2.10.0
+    semver: 7.3.8
+    sift: 16.0.1
+    style-loader: 3.3.1
+    styled-components: 5.3.3
+    typescript: 5.0.4
+    webpack: ^5.82.0
+    webpack-cli: ^5.1.0
+    webpack-dev-server: ^4.15.0
+    webpackbar: ^5.0.2
+    yup: ^0.32.9
+  peerDependencies:
+    "@strapi/strapi": ^4.3.4
+  checksum: e4dfe166f458d903d0330f1dfa4d72c912fba1d42865d4f4d0c12b40e70c2846fe540942e369b2cd2483741754476d7ca6e5653d2bb7cc3a6b66af53494e1b86
+  languageName: node
+  linkType: hard
+
 "@strapi/babel-plugin-switch-ee-ce@4.10.5, @strapi/babel-plugin-switch-ee-ce@workspace:packages/utils/babel-plugin-switch-ee-ce":
   version: 0.0.0-use.local
   resolution: "@strapi/babel-plugin-switch-ee-ce@workspace:packages/utils/babel-plugin-switch-ee-ce"
@@ -7874,7 +7981,22 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@strapi/database@4.10.5, @strapi/database@workspace:packages/core/database":
+"@strapi/database@https://github.com/paataD/strapi/archive/refs/tags/strapi-database-v4.10.5-gitpkg.tar.gz":
+  version: 4.10.5
+  resolution: "@strapi/database@https://github.com/paataD/strapi/archive/refs/tags/strapi-database-v4.10.5-gitpkg.tar.gz"
+  dependencies:
+    date-fns: 2.30.0
+    debug: 4.3.4
+    fs-extra: 10.0.0
+    knex: 2.4.0
+    lodash: 4.17.21
+    semver: 7.3.8
+    umzug: 3.1.1
+  checksum: 863540d18a382017109a976cec28f6a2eba3f534caa50ca2103da4834f62c9e4dab2d35bc8e66d4b1d461304932f9784775187dff39c3f673b6d2cfe08691555
+  languageName: node
+  linkType: hard
+
+"@strapi/database@workspace:packages/core/database":
   version: 0.0.0-use.local
   resolution: "@strapi/database@workspace:packages/core/database"
   dependencies:
@@ -7974,6 +8096,23 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@strapi/generators@https://github.com/paataD/strapi/archive/refs/tags/strapi-generators-v4.10.5-gitpkg.tar.gz":
+  version: 4.10.5
+  resolution: "@strapi/generators@https://github.com/paataD/strapi/archive/refs/tags/strapi-generators-v4.10.5-gitpkg.tar.gz"
+  dependencies:
+    "@sindresorhus/slugify": 1.1.0
+    "@strapi/typescript-utils": 4.10.5
+    "@strapi/utils": 4.10.5
+    chalk: 4.1.2
+    copyfiles: 2.4.1
+    fs-extra: 10.0.0
+    node-plop: 0.26.3
+    plop: 2.7.6
+    pluralize: 8.0.0
+  checksum: be4452199a5dcc48fe4c67d16d9fac80823d72c67f5c638e65e6e28c0c0ba7becb702bfa6ec916872f4fdeed50cdb6adb48da60337d42d905cac975f2cd2e73b
+  languageName: node
+  linkType: hard
+
 "@strapi/helper-plugin@4.10.5, @strapi/helper-plugin@workspace:packages/core/helper-plugin":
   version: 0.0.0-use.local
   resolution: "@strapi/helper-plugin@workspace:packages/core/helper-plugin"
@@ -8041,6 +8180,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@strapi/logger@https://github.com/paataD/strapi/archive/refs/tags/strapi-logger-v4.10.5-gitpkg.tar.gz":
+  version: 4.10.5
+  resolution: "@strapi/logger@https://github.com/paataD/strapi/archive/refs/tags/strapi-logger-v4.10.5-gitpkg.tar.gz"
+  dependencies:
+    lodash: 4.17.21
+    winston: 3.3.3
+  checksum: ae45dd4eaac186a3600a3defa3c4daa66f4e3e7185fbe36dd3e27117a9d63de357ecc849510f4cbb33556ca5e42185699eadf63847e87f838b125ffd5696dcc1
+  languageName: node
+  linkType: hard
+
 "@strapi/permissions@4.10.5, @strapi/permissions@workspace:packages/core/permissions":
   version: 0.0.0-use.local
   resolution: "@strapi/permissions@workspace:packages/core/permissions"
@@ -8076,7 +8225,18 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@strapi/plugin-content-manager@4.10.5, @strapi/plugin-content-manager@workspace:packages/core/content-manager":
+"@strapi/plugin-content-manager@https://github.com/paataD/strapi/archive/refs/tags/strapi-plugin-content-manager-v4.10.5-gitpkg.tar.gz":
+  version: 4.10.5
+  resolution: "@strapi/plugin-content-manager@https://github.com/paataD/strapi/archive/refs/tags/strapi-plugin-content-manager-v4.10.5-gitpkg.tar.gz"
+  dependencies:
+    "@sindresorhus/slugify": 1.1.0
+    "@strapi/utils": 4.10.5
+    lodash: 4.17.21
+  checksum: 905aae6a4c55f60d87a32cba11f02b58b4678687cdbb7c227a1721c4d5c72f9c5492c565c44663cb2f6c6942c065a1b055c90181d27782e3ff267282c4906f50
+  languageName: node
+  linkType: hard
+
+"@strapi/plugin-content-manager@workspace:packages/core/content-manager":
   version: 0.0.0-use.local
   resolution: "@strapi/plugin-content-manager@workspace:packages/core/content-manager"
   dependencies:
@@ -8086,7 +8246,38 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@strapi/plugin-content-type-builder@4.10.5, @strapi/plugin-content-type-builder@workspace:packages/core/content-type-builder":
+"@strapi/plugin-content-type-builder@https://github.com/paataD/strapi/archive/refs/tags/strapi-plugin-content-type-builder-v4.10.5-gitpkg.tar.gz":
+  version: 4.10.5
+  resolution: "@strapi/plugin-content-type-builder@https://github.com/paataD/strapi/archive/refs/tags/strapi-plugin-content-type-builder-v4.10.5-gitpkg.tar.gz"
+  dependencies:
+    "@sindresorhus/slugify": 1.1.0
+    "@strapi/design-system": 1.7.5
+    "@strapi/generators": 4.10.5
+    "@strapi/helper-plugin": 4.10.5
+    "@strapi/icons": 1.7.5
+    "@strapi/utils": 4.10.5
+    fs-extra: 10.0.0
+    immer: 9.0.19
+    lodash: 4.17.21
+    pluralize: ^8.0.0
+    prop-types: ^15.8.1
+    qs: 6.11.1
+    react-helmet: ^6.1.0
+    react-intl: 6.4.1
+    react-redux: 8.0.5
+    redux: ^4.2.1
+    reselect: ^4.1.7
+    yup: ^0.32.9
+  peerDependencies:
+    react: ^17.0.0 || ^18.0.0
+    react-dom: ^17.0.0 || ^18.0.0
+    react-router-dom: 5.3.4
+    styled-components: 5.3.3
+  checksum: ee067de744d144ca38f445f834f7eb1a7c18efeac2497ed8722adc9936ad96d30f330e049d49b0c8e36099a7f78567238b67e59ad05a9a9798142e1b2c936981
+  languageName: node
+  linkType: hard
+
+"@strapi/plugin-content-type-builder@workspace:packages/core/content-type-builder":
   version: 0.0.0-use.local
   resolution: "@strapi/plugin-content-type-builder@workspace:packages/core/content-type-builder"
   dependencies:
@@ -8483,15 +8674,15 @@ __metadata:
   dependencies:
     "@koa/cors": 3.4.3
     "@koa/router": 10.1.1
-    "@strapi/admin": 4.10.5
+    "@strapi/admin": "https://github.com/paataD/strapi/archive/refs/tags/strapi-admin-v4.10.5-gitpkg.tar.gz"
     "@strapi/data-transfer": 4.10.5
-    "@strapi/database": 4.10.5
+    "@strapi/database": "https://github.com/paataD/strapi/archive/refs/tags/strapi-database-v4.10.5-gitpkg.tar.gz"
     "@strapi/generate-new": 4.10.5
-    "@strapi/generators": 4.10.5
-    "@strapi/logger": 4.10.5
+    "@strapi/generators": "https://github.com/paataD/strapi/archive/refs/tags/strapi-generators-v4.10.5-gitpkg.tar.gz"
+    "@strapi/logger": "https://github.com/paataD/strapi/archive/refs/tags/strapi-logger-v4.10.5-gitpkg.tar.gz"
     "@strapi/permissions": 4.10.5
-    "@strapi/plugin-content-manager": 4.10.5
-    "@strapi/plugin-content-type-builder": 4.10.5
+    "@strapi/plugin-content-manager": "https://github.com/paataD/strapi/archive/refs/tags/strapi-plugin-content-manager-v4.10.5-gitpkg.tar.gz"
+    "@strapi/plugin-content-type-builder": "https://github.com/paataD/strapi/archive/refs/tags/strapi-plugin-content-type-builder-v4.10.5-gitpkg.tar.gz"
     "@strapi/plugin-email": 4.10.5
     "@strapi/plugin-upload": 4.10.5
     "@strapi/typescript-utils": 4.10.5
@@ -8541,6 +8732,70 @@ __metadata:
     strapi: ./bin/strapi.js
   languageName: unknown
   linkType: soft
+
+"@strapi/strapi@https://github.com/paataD/strapi/archive/refs/tags/strapi-strapi-v4.10.5-gitpkg.tar.gz":
+  version: 4.10.5
+  resolution: "@strapi/strapi@https://github.com/paataD/strapi/archive/refs/tags/strapi-strapi-v4.10.5-gitpkg.tar.gz"
+  dependencies:
+    "@koa/cors": 3.4.3
+    "@koa/router": 10.1.1
+    "@strapi/admin": "https://github.com/paataD/strapi/archive/refs/tags/strapi-admin-v4.10.5-gitpkg.tar.gz"
+    "@strapi/data-transfer": 4.10.5
+    "@strapi/database": "https://github.com/paataD/strapi/archive/refs/tags/strapi-database-v4.10.5-gitpkg.tar.gz"
+    "@strapi/generate-new": 4.10.5
+    "@strapi/generators": "https://github.com/paataD/strapi/archive/refs/tags/strapi-generators-v4.10.5-gitpkg.tar.gz"
+    "@strapi/logger": "https://github.com/paataD/strapi/archive/refs/tags/strapi-logger-v4.10.5-gitpkg.tar.gz"
+    "@strapi/permissions": 4.10.5
+    "@strapi/plugin-content-manager": "https://github.com/paataD/strapi/archive/refs/tags/strapi-plugin-content-manager-v4.10.5-gitpkg.tar.gz"
+    "@strapi/plugin-content-type-builder": "https://github.com/paataD/strapi/archive/refs/tags/strapi-plugin-content-type-builder-v4.10.5-gitpkg.tar.gz"
+    "@strapi/plugin-email": 4.10.5
+    "@strapi/plugin-upload": 4.10.5
+    "@strapi/typescript-utils": 4.10.5
+    "@strapi/utils": 4.10.5
+    bcryptjs: 2.4.3
+    boxen: 5.1.2
+    chalk: 4.1.2
+    chokidar: 3.5.2
+    ci-info: 3.8.0
+    cli-table3: 0.6.2
+    commander: 8.3.0
+    configstore: 5.0.1
+    debug: 4.3.4
+    delegates: 1.0.0
+    dotenv: 10.0.0
+    execa: 5.1.1
+    fs-extra: 10.0.0
+    glob: 7.2.0
+    http-errors: 1.8.1
+    https-proxy-agent: 5.0.1
+    inquirer: 8.2.5
+    is-docker: 2.2.1
+    koa: 2.13.4
+    koa-body: 4.2.0
+    koa-compose: 4.1.0
+    koa-compress: 5.1.0
+    koa-favicon: 2.1.0
+    koa-helmet: 7.0.2
+    koa-ip: ^2.1.2
+    koa-session: 6.4.0
+    koa-static: 5.0.0
+    lodash: 4.17.21
+    mime-types: 2.1.35
+    node-fetch: 2.6.9
+    node-machine-id: 1.1.12
+    node-schedule: 2.1.0
+    open: 8.4.0
+    ora: 5.4.1
+    package-json: 7.0.0
+    qs: 6.11.1
+    resolve-cwd: 3.0.0
+    semver: 7.3.8
+    statuses: 2.0.1
+  bin:
+    strapi: ./bin/strapi.js
+  checksum: c055d97f8878730ab3e35fb981fd7b1844be338c4687e83bb9012355a2f89e9e1f06676ef7cad26d2036789b2dc97017b23c8a86d3a3875ebc884efcb24a9862
+  languageName: node
+  linkType: hard
 
 "@strapi/typescript-utils@4.10.5, @strapi/typescript-utils@workspace:packages/utils/typescript":
   version: 0.0.0-use.local
@@ -12474,7 +12729,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bluebird@npm:^3.5.5":
+"bluebird@npm:^3.5.5, bluebird@npm:^3.7.2":
   version: 3.7.2
   resolution: "bluebird@npm:3.7.2"
   checksum: 869417503c722e7dc54ca46715f70e15f4d9c602a423a02c825570862d12935be59ed9c7ba34a9b31f186c017c23cac6b54e35446f8353059c101da73eac22ef
@@ -15164,6 +15419,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"del@npm:^6.1.1":
+  version: 6.1.1
+  resolution: "del@npm:6.1.1"
+  dependencies:
+    globby: ^11.0.1
+    graceful-fs: ^4.2.4
+    is-glob: ^4.0.1
+    is-path-cwd: ^2.2.0
+    is-path-inside: ^3.0.2
+    p-map: ^4.0.0
+    rimraf: ^3.0.2
+    slash: ^3.0.0
+  checksum: 563288b73b8b19a7261c47fd21a330eeab6e2acd7c6208c49790dfd369127120dd7836cdf0c1eca216b77c94782a81507eac6b4734252d3bef2795cb366996b6
+  languageName: node
+  linkType: hard
+
 "delayed-stream@npm:~1.0.0":
   version: 1.0.0
   resolution: "delayed-stream@npm:1.0.0"
@@ -15801,7 +16072,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"end-of-stream@npm:^1.0.0, end-of-stream@npm:^1.1.0, end-of-stream@npm:^1.4.1":
+"end-of-stream@npm:^1.0.0, end-of-stream@npm:^1.1.0, end-of-stream@npm:^1.4.1, end-of-stream@npm:^1.4.4":
   version: 1.4.4
   resolution: "end-of-stream@npm:1.4.4"
   dependencies:
@@ -18320,7 +18591,7 @@ __metadata:
     "@strapi/provider-email-mailgun": 4.10.5
     "@strapi/provider-upload-aws-s3": 4.10.5
     "@strapi/provider-upload-cloudinary": 4.10.5
-    "@strapi/strapi": 4.10.5
+    "@strapi/strapi": "https://github.com/paataD/strapi/archive/refs/tags/strapi-strapi-v4.10.5-gitpkg.tar.gz"
     better-sqlite3: 8.3.0
     lodash: 4.17.21
     mysql: 2.18.1
@@ -18358,6 +18629,15 @@ __metadata:
     gitconfiglocal: ^1.0.0
     pify: ^2.3.0
   checksum: 85263a09c044b5f4fe2acc45cbb3c5331ab2bd4484bb53dfe7f3dd593a4bf90a9786a2e00b9884524331f50b3da18e8c924f01c2944087fc7f342282c4437b73
+  languageName: node
+  linkType: hard
+
+"git-remote-origin-url@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "git-remote-origin-url@npm:3.1.0"
+  dependencies:
+    gitconfiglocal: ^2.1.0
+  checksum: 32d5e1cb4f1fc7a3ac5b8a1d3f71ea1aa2020eeb6ed5bf0722d704a97cfeaf3681d861f89cd181508f4e3e943e0d0b750e008d99e9db5b65f4a2be223e2ea490
   languageName: node
   linkType: hard
 
@@ -18401,6 +18681,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gitconfiglocal@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "gitconfiglocal@npm:2.1.0"
+  dependencies:
+    ini: ^1.3.2
+  checksum: 4b4b44d992a6abf2900eec8cfe960dc36e0d3c2467d20ec69e0a0f13b6b7645b926daa004df42f94c34ad28a58529cf2522fa0bf261e4e7b95958fb451dcedda
+  languageName: node
+  linkType: hard
+
 "github-from-package@npm:0.0.0":
   version: 0.0.0
   resolution: "github-from-package@npm:0.0.0"
@@ -18412,6 +18701,28 @@ __metadata:
   version: 1.4.0
   resolution: "github-slugger@npm:1.4.0"
   checksum: 4f52e7a21f5c6a4c5328f01fe4fe13ae8881fea78bfe31f9e72c4038f97e3e70d52fb85aa7633a52c501dc2486874474d9abd22aa61cbe9b113099a495551c6b
+  languageName: node
+  linkType: hard
+
+"gitpkg@npm:1.0.0-beta.4":
+  version: 1.0.0-beta.4
+  resolution: "gitpkg@npm:1.0.0-beta.4"
+  dependencies:
+    bluebird: ^3.7.2
+    chalk: ^4.1.2
+    del: ^6.1.1
+    end-of-stream: ^1.4.4
+    execa: ^5.1.1
+    find-up: ^5.0.0
+    git-remote-origin-url: ^3.1.0
+    make-dir: ^3.0.2
+    ora: ^5.4.1
+    semver: ^7.1.3
+    tar-fs: ^2.0.1
+    yargs: ^17.5.1
+  bin:
+    gitpkg: bin/gitpkg.js
+  checksum: 1ba5e2d13b6e1d18e4d88b5e9ac2fd6926d5cef56b44d35ccab1e09f316e4020b4ea49e889381d7a7c9d50db4af661038e52e1f4f8379206004f89c650cd2d1f
   languageName: node
   linkType: hard
 
@@ -18602,7 +18913,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:11.1.0, globby@npm:^11.0.2, globby@npm:^11.0.3, globby@npm:^11.1.0":
+"globby@npm:11.1.0, globby@npm:^11.0.1, globby@npm:^11.0.2, globby@npm:^11.0.3, globby@npm:^11.1.0":
   version: 11.1.0
   resolution: "globby@npm:11.1.0"
   dependencies:
@@ -29376,6 +29687,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"semver@npm:^7.1.3":
+  version: 7.5.1
+  resolution: "semver@npm:7.5.1"
+  dependencies:
+    lru-cache: ^6.0.0
+  bin:
+    semver: bin/semver.js
+  checksum: d16dbedad53c65b086f79524b9ef766bf38670b2395bdad5c957f824dcc566b624988013564f4812bcace3f9d405355c3635e2007396a39d1bffc71cfec4a2fc
+  languageName: node
+  linkType: hard
+
 "send@npm:0.18.0":
   version: 0.18.0
   resolution: "send@npm:0.18.0"
@@ -30312,6 +30634,7 @@ __metadata:
     find-up: 5.0.0
     fs-extra: 10.1.0
     get-port: 5.1.1
+    gitpkg: 1.0.0-beta.4
     glob: 7.2.3
     husky: 8.0.2
     inquirer: 8.2.5
@@ -31089,7 +31412,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tar-fs@npm:^2.0.0, tar-fs@npm:^2.1.1":
+"tar-fs@npm:^2.0.0, tar-fs@npm:^2.0.1, tar-fs@npm:^2.1.1":
   version: 2.1.1
   resolution: "tar-fs@npm:2.1.1"
   dependencies:
@@ -33776,6 +34099,21 @@ __metadata:
     y18n: ^5.0.5
     yargs-parser: ^21.0.0
   checksum: 604bdb4a6395a870540d2f3fea083c8e28441f12da8fd05b172b1e68480f00ed73d76be4a05fac19de9bf55ec7729b41e81cf555cccaed700aa192e4fff64872
+  languageName: node
+  linkType: hard
+
+"yargs@npm:^17.5.1":
+  version: 17.7.2
+  resolution: "yargs@npm:17.7.2"
+  dependencies:
+    cliui: ^8.0.1
+    escalade: ^3.1.1
+    get-caller-file: ^2.0.5
+    require-directory: ^2.1.1
+    string-width: ^4.2.3
+    y18n: ^5.0.5
+    yargs-parser: ^21.1.1
+  checksum: 73b572e863aa4a8cbef323dd911d79d193b772defd5a51aab0aca2d446655216f5002c42c5306033968193bdbf892a7a4c110b0d77954a7fdf563e653967b56a
   languageName: node
   linkType: hard
 
