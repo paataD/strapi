@@ -194,8 +194,8 @@ class InvalidPopulateError extends Error {
 }
 
 // NOTE: we could support foo.* or foo.bar.* etc later on
-const convertPopulateQueryParams = (populate, schema, depth = 0) => {
-  if (depth === 0 && populate === '*') {
+const convertPopulateQueryParams = (populate, schema) => {
+  if (populate === '*') {
     return true;
   }
 

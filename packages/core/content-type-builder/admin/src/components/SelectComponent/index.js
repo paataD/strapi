@@ -48,9 +48,9 @@ const SelectComponent = ({
   }, []);
 
   if (isAddingAComponentToAnotherComponent) {
-    options = options.filter((option) => {
+   /* options = options.filter((option) => {
       return !componentsThatHaveOtherComponentInTheirAttributes.includes(option.uid);
-    });
+    }); */
   }
 
   if (isTargetAComponent) {

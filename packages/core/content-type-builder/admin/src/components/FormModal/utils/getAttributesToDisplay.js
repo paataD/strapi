@@ -14,9 +14,7 @@ const getAttributes = (dataTarget = '', targetUid, nestedComponents) => {
   ];
 
   const isPickingAttributeForAContentType = dataTarget === 'contentType';
-  const isNestedInAnotherComponent = nestedComponents.includes(targetUid);
-  const canAddComponentInAnotherComponent =
-    !isPickingAttributeForAContentType && !isNestedInAnotherComponent;
+  const canAddComponentInAnotherComponent = true;
 
   if (isPickingAttributeForAContentType) {
     return [
